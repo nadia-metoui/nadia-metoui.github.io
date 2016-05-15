@@ -30,7 +30,7 @@ force-https: True
 
 lang: "en"
 author: " Nadia Metoui "
-title: "  Nadia Metoui  "
+title: "  { Nadia Metoui } "
 description: "Blog and website of Nadia Metoui PhD Student in Information Security & Trust."
 keywords: "Nadia Metoui, Information Security & Trust, Access Control, Privacy, Risk Managment, Trust Management,  Anonymization"
 favicon: "/img/green-safe.ico"
