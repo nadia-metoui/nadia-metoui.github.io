@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>https://nadia-metoui.github.io/blog/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
+      <url>
+        <loc>https://nadia-metoui.github.io/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    <url>
+      <loc>https://nadia-metoui.github.io/tech/2016/05/15/Coming-Soon.html</loc>
+      
+        <lastmod>2016-05-15T00:00:00+02:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+</urlset>
