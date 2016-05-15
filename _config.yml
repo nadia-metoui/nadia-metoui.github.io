@@ -57,7 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
 
 - text: "Hi there, I hope you are having a good day !"
-- text: "Thanks for passing by page"
+- text: "Thanks for passing by my page"
 
 me-img: "/img/author_img_big.png"
 
