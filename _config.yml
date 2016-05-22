@@ -56,8 +56,8 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
 
-- text: "Hi there, I hope you are having a good day !"
-- text: "Thanks for passing by my page"
+- text: "Hi there, Thanks for passing by my page"
+- text: "I hope you are having a good day !"
 
 me-img: "/img/author_img_big.png"
 
@@ -109,17 +109,45 @@ syntax-highlight: True
 # Timeline #
 ############
 
-events:
-  - image: "/img/timeline/author_img.png"
-    date: "September 2013 - Today"
+educs:
+  - image: "/img/timeline/unitn.png"
+    date: "2013 - Today"
+    institution: "University of Trento"
     description: "PhD. University of Trento"
-  - image: "/img/timeline/author_img.png"
-    date: "September 2010- August 2013"
+  - image: "/img/timeline/esprit.png"
+    date: "2010-2013"
+    institution: "Esprit University"
     description: "MSc. In Computer Engineering"
+  - image: "/img/timeline/insat.jpg"
+    date: "2006 - 2009"
+    institution: "Tunis Institute of Technology"
+    description: "BSc. In Computer & Telecom. Networks"
+
+    
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/author_img.png"
+#timeline-img: "/img/timeline/author_img.png"
+
+##################
+# Pro Experience #
+##################
+
+exper:
+  - image: "/img/timeline/author_img.png"
+    date: "September 2013 - Today"
+    institution: "SAP Labs France and FBK"
+    description: "Early Stage Researcher"
+  - image: "/img/timeline/author_img.png"
+    date: "January 2010- June 2013"
+    institution: "SAP Labs France"
+    description: "Internship in The S&T Research Unit"
+  - image: "/img/timeline/author_img.png"
+    date: "September 2006 - December 2009"
+    institution: "Tunis Institute of Technology"
+    description: "BSc. In Computer & Telecom. Networks"
+
+    
 
 ###########
 # Contact #
@@ -166,7 +194,9 @@ social:
 pages_list:
   About Me: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
+  Education: 'education'
+  Pro. Exp.: 'experience'
+  Publications: 'publications'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
