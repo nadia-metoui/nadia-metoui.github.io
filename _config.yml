@@ -113,7 +113,7 @@ educs:
   - image: "/img/timeline/unitn.png"
     date: "2013 - Today"
     institution: "University of Trento"
-    description: "PhD. University of Trento"
+    description: "PhD. In Computer Security"
   - image: "/img/timeline/esprit.png"
     date: "2010-2013"
     institution: "Esprit University"
