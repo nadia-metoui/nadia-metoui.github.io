@@ -1,6 +1,10 @@
 
 # Site settings
+<<<<<<< HEAD
 
+=======
+# markdown: redcarpet
+>>>>>>> origin/gh-pages
 # NB! Set your site's url, otherwise stuff will break :)
 
 url: "https://nadia-metoui.github.io"
@@ -109,6 +113,7 @@ syntax-highlight: True
 # Timeline #
 ############
 
+<<<<<<< HEAD
 educs:
   - image: "/img/timeline/unitn.png"
     date: "2013 - Today"
@@ -124,6 +129,15 @@ educs:
     description: "BSc. In Computer & Telecom. Networks"
 
     
+=======
+events:
+  - image: "/img/timeline/author_img.png"
+    date: "September 2013 - Today"
+    description: "PhD. University of Trento"
+  - image: "/img/timeline/author_img.png"
+    date: "September 2010- August 2013"
+    description: "MSc. In Computer Engineering"
+>>>>>>> origin/gh-pages
 
 # First image of the Timeline
 
