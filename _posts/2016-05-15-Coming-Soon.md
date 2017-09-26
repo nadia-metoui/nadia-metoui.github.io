@@ -14,6 +14,7 @@ I will be posting blog articals soon. It will most probably be about one of the 
   <li>Data management and security,</li>
   <li>Utility-aware Anonymization,</li>
   <li>Privacy In Big Data,</li>
+  <li>Cryptography,</li>
   <li>User-Centric and Usable Privacy,</li>
   <li>Risk and Trust Management,</li>
 </ul>

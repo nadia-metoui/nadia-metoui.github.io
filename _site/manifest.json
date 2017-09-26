@@ -32,6 +32,6 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://nadia-metoui.github.io/nadia-metoui.github.io",
+  "start_url": "http://localhost:4000/nadia-metoui.github.io",
   "display": "standalone"
 }
