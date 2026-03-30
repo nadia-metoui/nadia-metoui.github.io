@@ -1,0 +1,191 @@
+[
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Understanding the Digital Disability Creation Process and Bridging the Gap Between Responsible AI Design and Disability Frameworks",
+    "url": "",
+    "authors": "",
+    "venue": "Beyond Tech Fixes: Towards an AI Future Where Disability Justice Thrives",
+    "year": "2025"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "(Tar) getting you: The use of online political targeted messages on Facebook",
+    "url": "",
+    "authors": "",
+    "venue": "Big Data & Society",
+    "year": "2022"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "News won’t find me? Exploring inequalities in social media news use with tracking data",
+    "url": "",
+    "authors": "",
+    "venue": "International Journal of Communication",
+    "year": "2022"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Do (Microtargeted) Deepfakes Have Real Effects on Political Attitudes?",
+    "url": "https://doi.org/10.1177/1940161220944364",
+    "authors": "D. T., M. N., T. D., H. N., d. Vreese, C.",
+    "venue": "International Journal of Press/Politics",
+    "year": "2021"
+  },
+  {
+    "type": "conference",
+    "badge": "Conference",
+    "title": "Recommenders with a mission: assessing diversity in news recommendations",
+    "url": "",
+    "authors": "",
+    "venue": "Proceedings of the 2021 conference on human information interaction and retrieval",
+    "year": "2021"
+  },
+  {
+    "type": "conference",
+    "badge": "Conference",
+    "title": "DeM-CoD: Novel access-control-based cash on delivery mechanism for decentralized marketplace",
+    "url": "https://doi.org/10.1109/TrustCom50675.2020.00023",
+    "authors": "H. X.S., L. H.T., M. N., D. N.",
+    "venue": "Proceedings - 2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom 2020",
+    "year": "2020"
+  },
+  {
+    "type": "conference",
+    "badge": "Conference",
+    "title": "News won’t find me? Exploring potential digital inequalities in social media news use",
+    "url": "",
+    "authors": "",
+    "venue": "IC$^2$S$^2$",
+    "year": "2019"
+  },
+  {
+    "type": "conference",
+    "badge": "Conference",
+    "title": "Protecting past and future choices: Identifying and evaluating functional vulnerabilities in recommender systems",
+    "url": "",
+    "authors": "",
+    "venue": "Connected Life 2019: Data & Disorder",
+    "year": "2019"
+  },
+  {
+    "type": "conference",
+    "badge": "Conference",
+    "title": "Protecting the bytes of the past: Information security and digital-born cultural heritage",
+    "url": "",
+    "authors": "",
+    "venue": "Digital Humanities Benelux 2019",
+    "year": "2019"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Risk-Based Privacy-Aware Information Disclosure",
+    "url": "",
+    "authors": "",
+    "venue": "Censorship, Surveillance, and Privacy: Concepts, Methodologies, Tools, and Applications",
+    "year": "2019"
+  },
+  {
+    "type": "conference",
+    "badge": "Conference",
+    "title": "When Digital Manuscripts Burn: Information Security and Digital Heritage in Eastern Europe",
+    "url": "",
+    "authors": "",
+    "venue": "Politics of E-Heritage: Production and Regulation of Digital Memory in Eastern Europe and Russia (Workshop)",
+    "year": "2019"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Privacy-aware risk-based access control systems",
+    "url": "",
+    "authors": "M. Nadia",
+    "venue": "Universita degli studi di Trento (PhD Thesis)",
+    "year": "2018"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "EPIC: A methodology for evaluating privacy violation risk in cybersecurity systems",
+    "url": "",
+    "authors": "M. S., M. N., L. A., B. C.",
+    "venue": "Transactions on Data Privacy",
+    "year": "2018"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Risk-based privacy-aware information disclosure",
+    "url": "https://doi.org/10.4018/978-1-5225-7113-1.ch030",
+    "authors": "A. A., B. M., M. N., S. A.",
+    "venue": "Censorship, Surveillance, and Privacy: Concepts, Methodologies, Tools, and Applications",
+    "year": "2018"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Risk-based privacy-aware access control for threat detection systems",
+    "url": "https://doi.org/10.1007/978-3-662-56266-6_1",
+    "authors": "M. N., B. M., A. A.",
+    "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "year": "2017"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Differential privacy based access control",
+    "url": "https://doi.org/10.1007/978-3-319-48472-3_61",
+    "authors": "M. N., B. M.",
+    "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "year": "2016"
+  },
+  {
+    "type": "conference",
+    "badge": "Conference",
+    "title": "Trust and Risk-Based Access Control for Privacy Preserving Threat Detection Systems",
+    "url": "",
+    "authors": "",
+    "venue": "Future Data and Security Engineering",
+    "year": "2016"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Trust and risk-based access control for privacy preserving threat detection systems",
+    "url": "https://doi.org/10.1007/978-3-319-48057-2_20",
+    "authors": "M. N., B. M., A. A.",
+    "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "year": "2016"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Risk-Based Privacy-Aware Information Disclosure",
+    "url": "https://doi.org/10.4018/IJSSE.2015040104",
+    "authors": "",
+    "venue": "Int. J. Secur. Softw. Eng.",
+    "year": "2015"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Balancing trust and risk in access control",
+    "url": "https://doi.org/10.1007/978-3-319-26148-5_45",
+    "authors": "A. A., B. M., D. Cerbo, F., M. N.",
+    "venue": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "year": "2015"
+  },
+  {
+    "type": "journal",
+    "badge": "Journal",
+    "title": "Risk-aware information disclosure",
+    "url": "https://doi.org/10.1007/978-3-319-17016-9_17",
+    "authors": "",
+    "venue": "Data Privacy Management, Autonomous Spontaneous Security, and Security Assurance",
+    "year": "2015"
+  }
+]

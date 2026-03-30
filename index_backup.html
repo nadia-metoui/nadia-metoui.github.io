@@ -297,9 +297,9 @@
     <div class="hero-deco hero-deco-3"></div>
     <div class="hero-visual-content">
       <div class="hero-photo-frame">
-        <!-- Replace with your actual photo. The original is at: nadia-metoui.github.io/img/author_img_big.png -->
-        <img src="img/author_img_big.png" alt="Nadia Metoui"
-          onerror="this.parentElement.innerHTML='<div class=hero-placeholder><svg width=64 height=64 viewBox=\'0 0 64 64\' fill=\'none\'><circle cx=\'32\' cy=\'24\' r=\'12\' stroke=\'#2d6a4f\' stroke-width=\'2\'/><path d=\'M8 56c0-13.255 10.745-24 24-24s24 10.745 24 24\' stroke=\'#2d6a4f\' stroke-width=\'2\'/></svg><p>Place your photo at img/author_img_big.png</p></div>'">
+        <!-- Replace with your actual photo. The original is at: nadia-metoui.github.io/img/author_img_small.png -->
+        <img src="img/author_img_small.png" alt="Nadia Metoui"
+          onerror="this.parentElement.innerHTML='<div class=hero-placeholder><svg width=64 height=64 viewBox=\'0 0 64 64\' fill=\'none\'><circle cx=\'32\' cy=\'24\' r=\'12\' stroke=\'#2d6a4f\' stroke-width=\'2\'/><path d=\'M8 56c0-13.255 10.745-24 24-24s24 10.745 24 24\' stroke=\'#2d6a4f\' stroke-width=\'2\'/></svg><p>Place your photo at img/author_img_small.png</p></div>'">
       </div>
     </div>
   </div>
@@ -482,24 +482,11 @@
     <span class="section-num">03 /</span>
     <h2>Publications</h2>
   </div>
-  <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:30px;">
-    <div class="pub-filter" style="margin-bottom:0;">
-      <button class="filter-btn active" onclick="filterPubs('all',this)">All</button>
-      <button class="filter-btn" onclick="filterPubs('journal',this)">Journals</button>
-      <button class="filter-btn" onclick="filterPubs('conference',this)">Conferences</button>
-      <button class="filter-btn" onclick="filterPubs('talk',this)">Talks &amp; Posters</button>
-    </div>
-    <div style="display:flex; align-items:center; gap:10px;">
-      <span id="orcid-status" style="font-size:12px; color:var(--ink-faint); font-style:italic;"></span>
-      <a href="https://orcid.org/0000-0001-6690-2937" target="_blank"
-        style="display:flex; align-items:center; gap:6px; text-decoration:none; background:var(--accent-pale); border:1px solid var(--accent-light); border-radius:20px; padding:5px 12px; font-size:12px; color:var(--accent-deep); font-weight:500; transition:background 0.2s;">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;">
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="#A6CE39"/>
-          <path d="M8.5 7.5a1 1 0 100-2 1 1 0 000 2zM7.5 9.5h2v7h-2zM11 9.5h2v1s.7-1.2 2.3-1.2c1.8 0 2.7 1.2 2.7 3v4.2h-2v-3.8c0-1-.4-1.7-1.3-1.7-.9 0-1.7.7-1.7 1.9v3.6h-2V9.5z" fill="white"/>
-        </svg>
-        View ORCID profile
-      </a>
-    </div>
+  <div class="pub-filter">
+    <button class="filter-btn active" onclick="filterPubs('all',this)">All</button>
+    <button class="filter-btn" onclick="filterPubs('journal',this)">Journals</button>
+    <button class="filter-btn" onclick="filterPubs('conference',this)">Conferences</button>
+    <button class="filter-btn" onclick="filterPubs('talk',this)">Talks &amp; Posters</button>
   </div>
   <div class="pub-list" id="pub-list">
 
@@ -650,7 +637,7 @@
       <div class="contact-details">
         <div class="contact-item">
           <div class="c-icon">✉</div>
-          <a href="/cdn-cgi/l/email-protection#a6c8c7c2cfc788cbc3d2c9d3cfe6c1cbc7cfca88c5c9cb"><span class="__cf_email__" data-cfemail="3856595c515916555d4c574d51785f55595154165b5755">[email&#160;protected]</span></a>
+          <a href="mailto:nadia.metoui@gmail.com">nadia.metoui@gmail.com</a>
         </div>
         <div class="contact-item">
           <div class="c-icon">🔗</div>
@@ -719,310 +706,6 @@
 </footer>
 
 <script>
-  // ── ORCID PUBLIC API — auto-fetch publications ──────────────────────────
-  const ORCID_ID = '0000-0001-6690-2937';
-  const ORCID_API = `https://pub.orcid.org/v3.0/${ORCID_ID}`;
-
-  // Fallback publications (shown if ORCID is unreachable, or to enrich ORCID data)
-  const FALLBACK_PUBS = [
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Understanding the Digital Disability Creation Process and Bridging the Gap Between Responsible AI Design and Disability Frameworks',
-      url:     '',
-      authors: '',
-      venue:   'Beyond Tech Fixes: Towards an AI Future Where Disability Justice Thrives',
-      year:    '2025'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   '(Tar) getting you: The use of online political targeted messages on Facebook',
-      url:     '',
-      authors: '',
-      venue:   'Big Data & Society',
-      year:    '2022'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'News won’t find me? Exploring inequalities in social media news use with tracking data',
-      url:     '',
-      authors: '',
-      venue:   'International Journal of Communication',
-      year:    '2022'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Do (Microtargeted) Deepfakes Have Real Effects on Political Attitudes?',
-      url:     'https://doi.org/10.1177/1940161220944364',
-      authors: 'D. T., M. N., T. D., H. N., d. Vreese, C.',
-      venue:   'International Journal of Press/Politics',
-      year:    '2021'
-    },
-    {
-      type:    'conference',
-      badge:   'Conference',
-      title:   'Recommenders with a mission: assessing diversity in news recommendations',
-      url:     '',
-      authors: '',
-      venue:   'Proceedings of the 2021 conference on human information interaction and retrieval',
-      year:    '2021'
-    },
-    {
-      type:    'conference',
-      badge:   'Conference',
-      title:   'DeM-CoD: Novel access-control-based cash on delivery mechanism for decentralized marketplace',
-      url:     'https://doi.org/10.1109/TrustCom50675.2020.00023',
-      authors: 'H. X.S., L. H.T., M. N., D. N.',
-      venue:   'Proceedings - 2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom 2020',
-      year:    '2020'
-    },
-    {
-      type:    'conference',
-      badge:   'Conference',
-      title:   'News won’t find me? Exploring potential digital inequalities in social media news use',
-      url:     '',
-      authors: '',
-      venue:   'IC$^2$S$^2$',
-      year:    '2019'
-    },
-    {
-      type:    'conference',
-      badge:   'Conference',
-      title:   'Protecting past and future choices: Identifying and evaluating functional vulnerabilities in recommender systems',
-      url:     '',
-      authors: '',
-      venue:   'Connected Life 2019: Data & Disorder',
-      year:    '2019'
-    },
-    {
-      type:    'conference',
-      badge:   'Conference',
-      title:   'Protecting the bytes of the past: Information security and digital-born cultural heritage',
-      url:     '',
-      authors: '',
-      venue:   'Digital Humanities Benelux 2019',
-      year:    '2019'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Risk-Based Privacy-Aware Information Disclosure',
-      url:     '',
-      authors: '',
-      venue:   'Censorship, Surveillance, and Privacy: Concepts, Methodologies, Tools, and Applications',
-      year:    '2019'
-    },
-    {
-      type:    'conference',
-      badge:   'Conference',
-      title:   'When Digital Manuscripts Burn: Information Security and Digital Heritage in Eastern Europe',
-      url:     '',
-      authors: '',
-      venue:   'Politics of E-Heritage: Production and Regulation of Digital Memory in Eastern Europe and Russia (Workshop)',
-      year:    '2019'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Privacy-aware risk-based access control systems',
-      url:     '',
-      authors: 'M. Nadia',
-      venue:   'Universita degli studi di Trento (PhD Thesis)',
-      year:    '2018'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'EPIC: A methodology for evaluating privacy violation risk in cybersecurity systems',
-      url:     '',
-      authors: 'M. S., M. N., L. A., B. C.',
-      venue:   'Transactions on Data Privacy',
-      year:    '2018'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Risk-based privacy-aware information disclosure',
-      url:     'https://doi.org/10.4018/978-1-5225-7113-1.ch030',
-      authors: 'A. A., B. M., M. N., S. A.',
-      venue:   'Censorship, Surveillance, and Privacy: Concepts, Methodologies, Tools, and Applications',
-      year:    '2018'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Risk-based privacy-aware access control for threat detection systems',
-      url:     'https://doi.org/10.1007/978-3-662-56266-6_1',
-      authors: 'M. N., B. M., A. A.',
-      venue:   'Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)',
-      year:    '2017'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Differential privacy based access control',
-      url:     'https://doi.org/10.1007/978-3-319-48472-3_61',
-      authors: 'M. N., B. M.',
-      venue:   'Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)',
-      year:    '2016'
-    },
-    {
-      type:    'conference',
-      badge:   'Conference',
-      title:   'Trust and Risk-Based Access Control for Privacy Preserving Threat Detection Systems',
-      url:     '',
-      authors: '',
-      venue:   'Future Data and Security Engineering',
-      year:    '2016'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Trust and risk-based access control for privacy preserving threat detection systems',
-      url:     'https://doi.org/10.1007/978-3-319-48057-2_20',
-      authors: 'M. N., B. M., A. A.',
-      venue:   'Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)',
-      year:    '2016'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Risk-Based Privacy-Aware Information Disclosure',
-      url:     'https://doi.org/10.4018/IJSSE.2015040104',
-      authors: '',
-      venue:   'Int. J. Secur. Softw. Eng.',
-      year:    '2015'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Balancing trust and risk in access control',
-      url:     'https://doi.org/10.1007/978-3-319-26148-5_45',
-      authors: 'A. A., B. M., D. Cerbo, F., M. N.',
-      venue:   'Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)',
-      year:    '2015'
-    },
-    {
-      type:    'journal',
-      badge:   'Journal',
-      title:   'Risk-aware information disclosure',
-      url:     'https://doi.org/10.1007/978-3-319-17016-9_17',
-      authors: '',
-      venue:   'Data Privacy Management, Autonomous Spontaneous Security, and Security Assurance',
-      year:    '2015'
-    },
-  ];
-
-  // Map ORCID work types to our filter categories
-  function orcidTypeToLocal(workType) {
-    const journals = ['journal-article', 'book-chapter', 'book', 'report'];
-    const talks = ['conference-abstract', 'lecture-speech', 'other'];
-    if (journals.includes(workType)) return 'journal';
-    if (talks.includes(workType)) return 'talk';
-    return 'conference';
-  }
-
-  function badgeFromType(type, workType) {
-    if (type === 'journal') return 'Journal';
-    if (type === 'talk') return workType === 'conference-abstract' ? 'Abstract' : 'Talk';
-    return 'Conference';
-  }
-
-  function buildPubHTML(pub, idx) {
-    const num = typeof idx === 'number' ? idx + 1 : '★';
-    const titleEl = pub.url
-      ? `<a href="${pub.url}" target="_blank" rel="noopener">${pub.title}</a>`
-      : pub.title;
-    return `
-      <div class="pub-item" data-type="${pub.type}">
-        <div class="pub-idx">${num}</div>
-        <div class="pub-body">
-          <span class="pub-badge">${pub.badge}</span>
-          <div class="pub-title">${titleEl}</div>
-          ${pub.authors ? `<div class="pub-authors">${pub.authors}</div>` : ''}
-          ${pub.venue  ? `<div class="pub-venue">${pub.venue}</div>` : ''}
-          ${pub.year   ? `<div class="pub-year">${pub.year}</div>` : ''}
-        </div>
-      </div>`;
-  }
-
-  function renderPubs(pubs) {
-    const list = document.getElementById('pub-list');
-    // Separate talks (★) from numbered works
-    const numbered = pubs.filter(p => p.type !== 'talk');
-    const talks    = pubs.filter(p => p.type === 'talk');
-    list.innerHTML =
-      numbered.map((p, i) => buildPubHTML(p, i)).join('') +
-      talks.map(p => buildPubHTML(p, '★')).join('');
-  }
-
-  async function loadOrcidPubs() {
-    const status = document.getElementById('orcid-status');
-    status.textContent = 'Syncing with ORCID…';
-    try {
-      const res = await fetch(`${ORCID_API}/works`, {
-        headers: { 'Accept': 'application/json' }
-      });
-      if (!res.ok) throw new Error('ORCID API error');
-      const data = await res.json();
-      const groups = data.group || [];
-
-      if (groups.length === 0) throw new Error('No works found');
-
-      // Fetch full details for each work to get DOI / URL
-      const works = await Promise.all(groups.map(async g => {
-        const summary = g['work-summary'][0];
-        const putCode = summary['put-code'];
-        let url = '';
-        try {
-          const detail = await fetch(`${ORCID_API}/work/${putCode}`, {
-            headers: { 'Accept': 'application/json' }
-          });
-          if (detail.ok) {
-            const d = await detail.json();
-            const ids = d['external-ids']?.['external-id'] || [];
-            const doi = ids.find(x => x['external-id-type'] === 'doi');
-            if (doi) url = `https://doi.org/${doi['external-id-value']}`;
-            else {
-              const urlId = ids.find(x => x['external-id-type'] === 'uri');
-              if (urlId) url = urlId['external-id-value'];
-            }
-          }
-        } catch (_) {}
-
-        const workType = summary.type || '';
-        const type     = orcidTypeToLocal(workType);
-        const year     = summary['publication-date']?.year?.value || '';
-        const title    = summary.title?.title?.value || 'Untitled';
-        const journal  = summary['journal-title']?.value || '';
-        const contributors = (summary.contributors?.contributor || [])
-          .map(c => {
-            const n = c['credit-name']?.value || '';
-            const parts = n.split(' ');
-            return parts.length > 1 ? parts[0][0] + '. ' + parts.slice(1).join(' ') : n;
-          }).join(', ');
-
-        return { type, badge: badgeFromType(type, workType), title, url, authors: contributors, venue: journal, year };
-      }));
-
-      // Sort by year descending
-      works.sort((a, b) => (parseInt(b.year) || 0) - (parseInt(a.year) || 0));
-
-      renderPubs(works);
-      status.textContent = `Updated from ORCID · ${works.length} works`;
-      status.style.color = 'var(--accent)';
-    } catch (err) {
-      // Fall back to hardcoded list
-      renderPubs(FALLBACK_PUBS);
-      status.textContent = 'Showing saved publications';
-      status.style.color = 'var(--ink-faint)';
-    }
-  }
-
-  // ── FILTER ────────────────────────────────────────────────────────────────
   function filterPubs(type, btn) {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
@@ -1030,20 +713,15 @@
       item.style.display = (type === 'all' || item.dataset.type === type) ? 'flex' : 'none';
     });
   }
-
-  // ── SCROLL NAV HIGHLIGHT ──────────────────────────────────────────────────
   const sectionEls = document.querySelectorAll('section[id]');
   const navAs = document.querySelectorAll('.nav-links a');
   window.addEventListener('scroll', () => {
-        let cur = '';
+    let cur = '';
     sectionEls.forEach(s => { if (window.scrollY >= s.offsetTop - 110) cur = s.id; });
     navAs.forEach(a => {
       a.style.color = a.getAttribute('href') === '#' + cur ? 'var(--accent)' : '';
     });
   });
-
-  // ── INIT ──────────────────────────────────────────────────────────────────
-  loadOrcidPubs();
 </script>
 </body>
 </html>
