@@ -151,7 +151,7 @@ def update_index(pubs: list[dict]) -> None:
 # ── Export JSON (bonus) ───────────────────────────────────────────────────────
 
 def export_json(pubs: list[dict]) -> None:
-    out = "publications.json"
+    out = "data/publications.json"
     with open(out, "w", encoding="utf-8") as f:
         json.dump(pubs, f, indent=2, ensure_ascii=False)
     print(f"📄 Also saved {out} for reference.")
