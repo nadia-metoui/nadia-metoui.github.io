@@ -1,0 +1,30 @@
+bio_paragraphs:
+  - >
+    I am a **researcher in Responsible AI, Data and Digitalisation**. I am transitioning 
+    from academic research to research sevices, infrastructues, advisory, and science policy. 
+    My work sits at the intersection of AI, privacy, and critical social theories.
+  - >
+    As a former **Marie Curie ITN fellow** and active leader within the Marie Curie 
+    Alumni Association (MCAA), I have first-hand experience with EU funding mechanisms and science policy.
+  - >
+    I grew up in Tunisia, have lived and worked in five countries, and bring 
+    cross-cultural skills to everything I do.
+  - >
+    I am currently based in the Netherlands (actively studying Dutch, targeting B1) 
+    and open to research service, advisory, and policy roles.
+
+expertise_areas:
+  - title: "Research Funding"
+    skills: ["MSCA / COST Action", "Proposal Writing", "EU Funding Landscape", "Consortia Management"]
+  - title: "Responsible AI & Policy"
+    skills: ["Privacy & GDPR", "AI Transparency", "Critical social theories", "Equity Diversity and Inclusion EDI", "Open Science"]
+  - title: "Technical"
+    skills: ["Python/ R/ Java", "NLP & ML", "SQL", "Cyber Security"]
+
+languages:
+  - { name: "English", level: "C2" }
+  - { name: "French", level: "C2" }
+  - { name: "Tunisia (Arabic)", level: "C2" }
+  - { name: "Fusha (Arabic)", level: "C2" }
+  - { name: "Italian", level: "B1" }
+  - { name: "Dutch", level: "A1→B1" }
